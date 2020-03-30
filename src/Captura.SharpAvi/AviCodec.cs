@@ -34,5 +34,6 @@ namespace Captura.Models
         public static AviCodec MotionJpeg { get; } = new AviCodec(new FourCC("MJPG"), "Motion Jpeg");
 
         public static AviCodec Lagarith { get; } = new AviCodec(new FourCC("LAGS"), "Lagarith (Install Manually)");
+        public static AviCodec UtVideoYUV422BT709 { get; } = new AviCodec(new FourCC("ULH2"), "UtVideo YUV422 BT.709 (Install Manually)");
     }
 }
